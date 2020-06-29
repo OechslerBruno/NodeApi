@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const mongoosePaginate = require('mongoose-paginate');
 
 //Specifying wich properties will be recorded in the DB
 const ProductSchema = new mongoose.Schema({
@@ -19,6 +20,8 @@ const ProductSchema = new mongoose.Schema({
         default: Date.now
     }
 });
+
+ProductSchema.plugin(mongoosePaginate);
 
 //Registering the model.
 mongoose.model('Product', ProductSchema);

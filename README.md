@@ -12,3 +12,4 @@ DevDependencies:
 	Using nodemon instaled by '> npm install -D nodemon' in VSCode terminal.
 	Using Mongoose: '> npm install mongoose' in VSCode terminal.
 	Using RequireDir: '> npm install require-dir' in VSCode terminal.
+	Using mongoose-paginate: '> npm install mongoose-paginate' in VSCode terminal.
