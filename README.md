@@ -13,3 +13,4 @@ DevDependencies:
 	Using Mongoose: '> npm install mongoose' in VSCode terminal.
 	Using RequireDir: '> npm install require-dir' in VSCode terminal.
 	Using mongoose-paginate: '> npm install mongoose-paginate' in VSCode terminal.
+	Using cors: '> npm install cors' in VSCode terminal.

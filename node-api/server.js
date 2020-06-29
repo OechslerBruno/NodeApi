@@ -1,10 +1,12 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const requireDir = require('require-dir');
+const cors = require('cors');
 
 //Stating the app
 const app = express();
 app.use(express.json()); //To allow sending data in json format.
+app.use(cors()); //Allows the API to be accessed publicly
 
 //Starting the DB
 mongoose.connect('mongodb://localhost:27017/nodeapi', { useNewUrlParser: true });
